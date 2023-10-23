@@ -1,0 +1,24 @@
+/* CSS untuk carousel */
+.carousel-inner .carousel-item img {
+  max-height: 500px; /* Atur tinggi maksimum gambar sesuai keinginan  */
+  width: auto; /* Biarkan lebar gambar menyesuaikan tinggi maksimum */
+  object-fit: cover; /* Biarkan gambar menutupi seluruh area carousel */
+}
+
+/* CSS untuk tombol prev/next */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px; /* Atur lebar tombol sesuai keinginan Anda */
+  height: none; /* Atur tinggi tombol sesuai keinginan Anda */
+  font-size: 20px; /* Atur ukuran teks tombol sesuai keinginan Anda */
+  background-color: transparent; /* Hapus latar belakang tombol */
+  border: none; /* Hapus border tombol */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #fff; /* Warna latar belakang ikon */
+  color: #000; /* Warna ikon */
+  border-radius: 50%; /* Membuat ikon menjadi lingkaran */
+  padding: 6px; /* Atur jarak antara ikon dan tombol */
+}
